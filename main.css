@@ -48,7 +48,7 @@ h2{
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ h3{
 }
 
 .menu > div{
-    width: 33%;
+    width: 50%;
 }
 
 .menu ul{
@@ -118,14 +118,13 @@ h3{
     align-content: center;
 }
 
-.menu-mobile .header .logo{
+.menu-mobile .header {
     flex-grow: 2;
     text-align: center;
 }
 
-.menu-mobile .header .logo img{
-    width: 64px;
-
+.menu-mobile .header img{
+    width: 100px;
     animation-name: opening-logo;
     animation-duration: 1.6s;
     animation-timing-function: ease-in-out;
@@ -168,7 +167,7 @@ h3{
 **/
 
 .work{
-    padding-top: 75px;
+    padding-top: 150px;
     transform-origin: 0 0;
     transform: skewY(-10deg);
 }
@@ -183,13 +182,13 @@ h3{
     padding: 0;
     position: relative;
     overflow: hidden;
-    height: 100px;
+    height: 400px;
     
 }
 
 .grid .item img{
     width: 100%;
-    margin-top: -60px;
+    margin-top: -20px;
     transform: skewY(10deg) scale(1.2,1.2);
     transition: all 0.075s;
 }
