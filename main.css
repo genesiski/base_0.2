@@ -232,8 +232,10 @@ h3{
 }
 
 .ahora{
-    color: red;
-    background-color: yellow;
+    color: rgb(0, 0, 255);
+    background-color: rgb(5, 213, 255);
+    --highlight-color: #000000;
+    border-radius: 20px;
 }
 
 .about{
