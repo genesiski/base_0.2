@@ -231,6 +231,10 @@ h3{
     color: var(--background-color);
 }
 
+.ahora{
+    color: red;
+}
+
 .about{
     width: 50%;
     text-align: center;
